@@ -18,10 +18,14 @@
     "@spectrum-icons/workflow": "^3.2.5",
     "eslint": "8.29.0",
     "eslint-config-next": "^13.0.6",
+    "informed": "^4.37.1",
     "next": "^13.0.6",
     "next-transpile-modules": "^10.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-spring": "^9.5.5"
+  },
+  "resolutions": {
+    "webpack": "^5.0.0-beta.28"
   }
 }

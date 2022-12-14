@@ -54,6 +54,13 @@ module.exports = {
       "@spectrum-icons/workflow",
     ],
   },
+  webpack: (config, options) => {
+    config.experiments = {
+        "topLevelAwait": true,
+        layers: true
+    }
+    return config
+  },
 };
 
 
